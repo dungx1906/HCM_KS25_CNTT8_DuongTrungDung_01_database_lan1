@@ -71,5 +71,10 @@ WHERE nha_San_Xuat = 'Apple';
 DELETE FROM customer
 WHERE phone IS NULL OR phone = '';
 
+SELECT * 
+FROM Product
+WHERE unit_price BETWEEN 10000000 AND 20000000;
+
+
 
 
